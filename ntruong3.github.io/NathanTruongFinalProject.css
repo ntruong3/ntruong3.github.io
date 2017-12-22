@@ -1,0 +1,58 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	width: 99%;
+}
+
+li {
+	float: left;
+	font-size: 20px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: green;
+}
+
+body{
+	background-image: url("https://c1.staticflickr.com/4/3338/3341815497_7cc8021631_b.jpg");
+	background-attachment: fixed;
+}
+
+h1{
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+img{
+	display: block;
+	padding-top: 100px;
+	height: 200px;
+	width; 400px;
+}
+
+.left-img{
+	float: left;
+	display: inline-block;
+}
+
+.center-img{
+	float: left;
+	display: inline-block;
+}
+
+.right-img{
+	float: left;
+	display: inline-block;
+}
